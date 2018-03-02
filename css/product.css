@@ -1,0 +1,143 @@
+
+.head_mid_xuanzhong .head_mid_zuo{	
+	left:190px;
+}
+.anlibanner{
+	background-image: url('../img/chanpin0.png');	
+}
+.anli_mianbaoxie{
+	width: 289px;
+	height: 41px;
+	background-color: #000;
+	margin-top: 215px;
+	float: left;
+	border-right: 5px solid #f5c813;
+	padding: 15px 30px;
+}
+.yeshu_daohang{
+	width: 1200px;
+	height: 186px;
+	margin: 0 auto;
+}
+.finish_bottom_jiantou{
+	width: 375px;
+	height: 46px;
+	float: left;
+	margin-left: 439px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+.finish_bottom_jiantou_zuo{
+	float: left;
+	color: #595959;
+	font-size: 30px;
+	margin-right: 26px;
+}
+.finish_bottom_jiantou_shuzi{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #e5e5e5;
+	color: #2b6c8c;
+	float: left;
+	margin-top: 10px;
+	margin-right: 26px;
+	text-align: center;
+	line-height: 24px;
+}
+.finish_bottom_jiantou_you{
+	color: #595959;
+	font-size: 30px;
+	float: right;
+}
+.finish_bottom_jiantou_shuzi1{
+	background-color:#2b6c8c;
+	color: #fff; 
+}
+.finish_bottom_jiantou_shuzi2{
+	background-color: rgba(0, 0, 0, 0);
+}
+.chanpin{
+	width: 1200px;
+	height: 852px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.chanpin_item{
+	width: 284px;
+	height: 386px;
+	position: relative;
+	margin-right: 21px;
+	margin-bottom: 30px;
+	float: left;	
+}
+.chanpin_yellow{
+	width: 2px;
+	height: 355px;
+	position: absolute;
+	top: 0;
+	right: 18px;
+	background-color: #F5C812; 
+}
+.chanpin_float{
+	width: 270px;
+	height: 355px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 34px 0 0 23px;
+}
+.chanpin_float_title{
+	font-size: 22px;
+	font-weight: lighter;
+	color: #fff;
+}
+.chanpin_float_english{
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	font-family: "ARIAL";
+	margin-top: 14px;
+}
+.chanpin_float_icon{
+	font-family: 'iconfont'; 
+	font-size: 24px;
+	margin-top: 18px;
+	color: #F6C812;
+}
+.chanpin_item_kuang{
+	width: 259px;
+	height: 382px;
+	border: 2px solid #d7d7d7;
+}
+.chanpin_item_img{
+	width: 270px;
+	height: 355px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	box-shadow:0 0px 15px 3px  rgba(148,166,173,0.2);
+}
+.chanpin_item_img2{
+	width: 270px;
+	height: 355px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-color: rgba(25, 75, 98, .8);
+	opacity: 0;
+}
+.chanpin_item_img img{
+	width: 270px;
+	height: 355px;
+}
+.chanpin_item1{
+	margin-right: 0;
+}
+.chanpin_item2{
+	margin-bottom: 0;
+}
+.chanpin_item:hover .chanpin_item_img2{
+	opacity: 1;
+	cursor: pointer;
+}

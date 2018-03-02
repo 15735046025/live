@@ -1,0 +1,135 @@
+
+.head_mid_xuanzhong .head_mid_zuo{
+	left:86px;
+}
+.anlibanner{
+	background-image: url('../img/gongsi0.png');
+}
+.anli_mianbaoxie{
+	width: 289px;
+	height: 45px;
+	background-color: #000;
+	margin-top: 225px;
+	float: left;
+	border-right: 5px solid #f5c813;
+	padding: 15px 30px;
+}
+.pinpai_top{
+	width:985px;
+	height: 550px;
+	margin: 64px auto 0;
+	padding-left: 120px;
+	padding-right: 95px;
+}
+.pinpai_top_title{
+	width: 985px;
+	height: 80px;
+	float: left;
+	border-bottom: 2px dotted #5b5b5b;
+}
+.pinpai_top_title img{
+	float: left;
+}
+.pinpai_top_title h1{
+	font-size: 22px;
+	font-weight: normal;
+	color: #2b6c8c;
+	float: left;
+}
+.pinpai_top_title_wenzi1{
+	width: 340px;
+	height: 100%;
+	float: left;
+	margin-left: 42px;
+}
+.pinpai_top_title_wenzi1_english{
+	font-family: "ARIAL";
+	font-size: 23px;
+	font-weight: bold;
+	color: #5b5b5b;
+	float: left;
+	margin-top: 5px;
+}
+.pinpai_top_title_wenzi1_chinese{
+	font-size: 22px;
+	color: #5b5b5b;
+	font-weight: normal;
+	float: left;
+}
+.pinpai_top_title_wenzi1 p{
+	font-size: 20px;
+	color: #5b5b5b;
+	font-weight: lighter;
+	float: left;
+}
+.pinpai_duanluo1{
+	width: 985px;
+	height: 241px;
+	float: left;
+}
+.pinpai_duanluo1_title{
+	width: 683px;
+	height: 35px;
+	float: left;
+	margin-top: 15px;
+}
+.pinpai_duanluo1_title span{
+	width: 9px;
+	height: 9px;
+	background-color: #000;
+	float: left;
+	margin-top: 8px;
+	margin-right: 13px;
+}
+.pinpai_duanluo1_title h1{
+	font-weight: normal;
+	float: left;
+	font-size: 16px;
+}
+.pinpai_duanluo1_title P{
+	font-family: "ARIAL";
+	font-weight: normal;
+	color: #c4c4c4;
+	font-size: 16px;
+	margin-top: 3px;
+	float: left;
+}
+.pinpai_duanluo1_xia{
+	width: 963px;
+	height: 206px;
+	float: left;
+	padding-left: 22px;
+}
+.pinpai_duanluo1_wenzi2{
+	font-size: 14px;
+	font-weight: 600;
+	color: #7a7a7a;
+	margin-top:10px;
+}
+.pinpai_duanluo1_wenzi3{
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #7a7a7a;
+}
+.pinpai_middle{
+	width: 1366px;
+	height: 380px;
+	margin: 0 auto;
+}
+.pinpai_xia{
+	width: 985px;
+	margin: 48px auto 0;
+	padding-left: 120px;
+	padding-right: 95px;
+}
+.pinpai_xia_english{
+	width: 985px;
+	height: 240px;
+	font-family: "ARIAL";
+	font-weight: normal;
+	color: #7a7a7a;
+	font-size: 14px;
+	float: left;
+	margin-left: 22px;
+}

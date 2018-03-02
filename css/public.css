@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 575604 */
+  src: url('https://at.alicdn.com/t/font_575604_s7c92hwkpslcjtt9.eot');
+  src: url('https://at.alicdn.com/t/font_575604_s7c92hwkpslcjtt9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_575604_s7c92hwkpslcjtt9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_575604_s7c92hwkpslcjtt9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_575604_s7c92hwkpslcjtt9.svg#iconfont') format('svg');
+}
+.head{
+  width: 100%;
+  /* margin: 0 auto; */
+  height: 80px;
+  background-color: #fafafa;
+}
+.head_content{
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.head_left img{
+  margin-top: 5px 0 0 8px;
+  float: left;
+}
+.head_left p{
+  font-size: 20px;  
+  margin-top: 15px;
+  color: #2b6c8c;
+  float: left;
+}
+.head_right{
+  width: 210px;
+  height: 80px;
+  float: right;
+}
+.search_kuang{
+  width: 168px;
+  height: 22px;
+  border-radius: 10px;
+  border: 1px solid #BFBFBF;
+  margin-top: 26px;
+  position: relative;
+}
+.search_kuang p{
+  font-family: 'iconfont'; 
+  font-size: 12px;
+  line-height: 22px;
+  position: absolute;
+  right: 8px;
+  color: #4D4D4D;
+}
+.head_mid{
+  width: 600px;
+  height: 80px;
+  float: right;
+  position: relative;
+}
+.head_mid a{
+  font-size: 14px;
+  margin-right: 40px;
+  color: #474747;
+  line-height: 80px;
+  text-align: center;
+}
+.head_mid .head_mid_xuanzhong{
+  color: #2b6c8c;
+  margin-right: 30px;
+}
+.head_mid_xuanzhong .head_mid_zuo{
+  position: absolute;
+  top:27px;
+}
+.head_mid_xuanzhong .head_mid_you{
+  position: absolute;
+  top:45px;
+}
+.anlibanner{
+  width: 100%;
+  height: 420px;
+  background-size: contain; 
+  background-repeat:no-repeat; 
+  background-position: center;
+}
+.neirong{
+  width: 1200px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+}
+.anli_mianbaoxie_left{
+  width: 57px;
+  height: 35px;
+  float: left;
+}
+.anli_mianbaoxie_left p{
+  width: 4px;
+  height: 35px;
+  border-left: 2px solid #fff;
+  float: left;
+  margin-top: 5px;
+}
+.anli_mianbaoxie_left_wenzi{
+  color: #fff;
+  font-size: 14px;
+}
+.anli_mianbaoxie_right{
+  width: 156px;
+  height: 35px;
+  float: right;
+}
+.anli_mianbaoxie_right p{
+  width: 4px;
+  height: 35px;
+  border-left: 2px solid #fff;
+  float: left;
+  margin-top: 5px;
+}
+.anli_mianbaoxie_mid{
+  width: 16px;
+  height: 4px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  display: flex;
+}
+.anli_mianbaoxie_mid p{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #858587;
+  margin-right: 2px;
+  justify-content: space-between;
+}
+.anli_mianbaoxie_mid .anli_mianbaoxie_mid1{
+  background-color: #cfcfd1;
+}
+.anli_mianbaoxie_mid .anli_mianbaoxie_mid2{
+  background-color: #fff;
+}
+.neirong img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.dabeijing{
+  width: 100%;
+  height: 520px;
+  background-color: #2e6d8c;
+  float: left;
+  margin-top: 80px;
+}
+.zhandian{
+  width: 1200px;
+  height: 520px;
+  margin: 0 auto;
+  position: relative;
+}
+.zhandian img{
+  margin-top: 72px;
+  margin-left: 98px;
+}
+.juti_map{
+  width: 286px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #2e6d8c;
+  position: absolute;
+  top: 113px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.juti_map span{
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  color: #fff;
+}
+.juti_map p{
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  color: #fff;
+}
+.zhandian_left{
+  width: 383px;
+  height: 167px;
+  margin: 43px 0 0 98px;
+  position: relative;
+  float: left;
+}
+.zhandian_left_1{
+  width: 164px;
+  height: 30px;
+  background-color: #fff;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #a3a3a1;
+  float: left;
+  margin-right: 15px;
+}
+.zhandian_left_2{
+  margin-right: 0px;
+}
+.zhandian_left_bottom{
+  width: 344px;
+  height: 110px;
+  background-color: #fff;
+  padding:0 20px;
+  color: #a3a3a1;
+  margin-top: 12px;
+  float: left;
+  padding-top: 16px;
+}
+.zhandian_left_bottom_box{
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  width: 73px;
+  height: 25px;
+}
+.zhandian_left_bottom_btn{
+  width: 43px;
+  height: 23px;
+  border-bottom: 2px solid #2B6C8C;
+  background-color: #fff;
+  color: #2B6C8C;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  line-height: 25px;
+}
+.zhandian_left_bottom_jia{
+  width: 25px;
+  height: 25px;
+  background-color: #2e6c8c;
+  color: #fff;
+  font-family: 'iconfont';
+  text-align: center;
+  line-height: 25px;
+  float: left;
+}
+.zhandian_mid{
+  width: 361px;
+  height: 167px;
+  margin-left: 70px;
+  margin-top: 43px;
+  float: left;
+}
+.zhandian_mid span{
+  font-size: 14px;
+  color: #fff;
+}
+.zhandian_more{
+  font-size: 14px;
+  color: #fff;
+  font-family: "SAN FRANCISCO DISPLAY";
+  margin-top: 7px;
+  font-weight: lighter;
+}
+.zhandian_mid_wenzi{
+  width: 57px;
+  height: 103px;
+  margin-top: 18px;
+  margin-right: 65px;
+  float: left;
+  color: #fff;
+  font-size: 14px;
+}
+.zhandian_mid_wenzi p{
+  margin-bottom: 10px;
+}
+.zhandian_mid_wenzi p:hover{
+  color: #aec4d2;
+}
+.zhandian_mid_wenzi1{
+  margin-right: 0px;
+}
+.zhandian_right{
+  width: 200px;
+  height: 167px;
+  margin-left:25px;
+  margin-top: 43px;
+  float: left;
+}
+.zhandian_right span{
+  font-size: 14px;
+  color: #fff;
+}
+.zhandian_right_img{
+  width: 158px;
+  height: 30px;
+  margin:35px 0 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.zhandian_right_img span{
+  font-family: 'iconfont';
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #808080;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+.zhandian_right h5{
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+.banquan{
+  width: 100%;
+  height: 56px;
+  background-color: #191919;
+  float: left;
+  text-align: center;
+  color: #7b7b7b;
+  padding-top: 10px;
+  font-size: 12px;
+}

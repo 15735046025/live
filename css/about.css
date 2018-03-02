@@ -1,0 +1,377 @@
+
+.head_mid_xuanzhong .head_mid_zuo{
+	left:495px;
+}
+.anlibanner{
+	background-image: url('../img/about0.png');
+}
+.anli_mianbaoxie{
+	width: 289px;
+	height: 45px;
+	background-color: #000;
+	margin-top: 225px;
+	float: left;
+	border-right: 5px solid #f5c813;
+	padding: 15px 30px;
+}
+.wenhua{
+	width: 1366px;
+	height: 444px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 40px;
+}
+.wenhua_zuo{
+	float: left;
+}
+.wenhua_you{
+	float: right;
+	margin-top: 11px;
+}
+.wenhau_you1{
+	width: 161px;
+	height: 283px;
+	background-color: #f5c813;
+	position: absolute;
+	right: 92px;
+	top: 0;
+	z-index: -1;
+}
+.wenhua_mid{
+	width: 551px;
+	height: 385px;
+	float: left;
+	margin-left: 50px;
+}
+.wenhua_mid_english1{
+	font-size: 14px;
+	color: #1d1d1d;
+	font-weight: 600;
+}
+.wenhua_mid_english2{
+	font-size: 26px;
+	color: #1d1d1d;
+	font-weight: 900;
+	display: block;
+}
+.wenhua_mid_xian_huang{
+	width: 116px;
+	height: 3px;
+	background-color: #f5c813;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 22px;
+}
+.wenhua_mid_xian_lan{
+	width: 435px;
+	height: 3px;
+	background-color: #2b6c8c;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 22px;
+}
+.wenhua_mid_chinese{
+	font-size: 18px;
+	color: #1d1d1d;
+	margin-bottom: 16px;
+}
+.wenhua_mid_english3,.wenhua_mid_english4{
+	font-size: 18px;
+	color: #1d1d1d;
+	font-weight: normal;
+	display: block;
+}
+.wenhua_mid_chinese1{
+	font-size: 14px;
+	color: #7b7b7b;
+	font-weight: lighter;
+	margin-top: 16px;
+}
+.wenhua_mid_more{
+	width: 88px;
+	height: 27px;
+	border: 2px solid #000;
+	background-color: #fff;
+	margin-top: 16px;
+	line-height: 27px;
+	position: relative;
+	padding-left: 10px;
+}
+.wenhua_mid_more_jia{
+	width: 27px;
+	height: 27px;
+	border-left: 2px solid #000;
+	background-color: #2b6c8c;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 27px;
+	font-weight: 800;
+}
+.dongtai{
+	width: 1366px;
+	height: 801px;
+	margin: 0 auto;
+	position: relative;
+}
+.dongtai_top{
+	width: 279px;
+	height: 98px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.dongtai_newimg{
+	width: 1000px;
+	height: 302px;
+	margin-left: 110px;
+	margin-top: 140px;
+}
+.dongtai_newimg_beijing{
+	width: 160px;
+	height: 283px;
+	background-color: #2b6c8c;
+	position: absolute;
+	left: 96px;
+	top: 173px;
+	z-index: -1;
+}
+.dongtai_huodong{
+	width: 444px;
+	height: 118px;
+	background-color: #fff;
+	border-right: 5px solid #f5c813;
+	margin:0 0 6px  608px;
+	padding: 20px 30px 0;
+}
+.dongtai_huodong span{
+	font-size: 20px;
+}
+.dongtai_huodong p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #939393;
+}
+.dongtai_huodong1{
+	border-right: 0px solid #f5c813;
+	width: 444px;
+	height: 118px;
+	padding-right: 5px;
+}
+.dongtai_huodong2{
+	box-shadow: 0 0 15px 3px rgba(148,166,173,.2);
+}
+.dongtai_huodong_more{
+	width: 88px;
+	height: 27px;
+	border: 2px solid #000;
+	background-color: #fff;
+	line-height: 27px;
+	position: relative;
+	padding-left: 10px;
+	margin-left: 276px;
+	float: left;
+	margin-top: 98px;
+}
+.dongtai_huodong_more_jia{
+	width: 27px;
+	height: 27px;
+	border-left: 2px solid #000;
+	background-color: #2b6c8c;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 27px;
+	font-weight: 800;
+}
+.pinpai{
+	width: 100%;
+	height: 1308px;
+	position: relative;
+}
+.pinapi_content{
+	width: 1366px;
+	margin: 0 auto;
+}
+.pinpai_img{
+	width: 279px;
+	height: 98px;
+	margin: 0 auto;
+}
+.pinpai_img1 {
+	width: 1366px;
+	margin: 0 auto;
+	margin-top: 43px;	
+}
+/* .pinpai_img1 img{
+	float: right;
+	display: block;
+} */
+.pinpai_img3{
+	width: 100%;
+}
+.pinpai_img3 img{
+	float: left;
+}
+.pinpai_img4{
+	width:1000px;
+	height: 202px;
+	float: left;
+}
+.pinpai_img4 img{
+	margin-left: 12px;
+	margin-top: 15px;
+}
+.pinpai_img5{
+	width: 279px;
+	height: 98px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+}
+.pinpai_img5 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.pinpai_btn2{
+	width: 399px;
+	height: 399px;
+	float: right;
+	position: relative;
+}
+.pinpai_btn3{
+	width: 399px;
+	height: 399px;
+	float: right;
+}
+.pinpai_btn1 img{
+	float: right;
+}
+.pinpai_btn2_float{
+	width: 349px;
+	height: 314px;
+	margin-top: 85px;
+	margin-left: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pinpai_btn2_title{
+	font-size: 28px;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.pinpai_btn2_desc{
+	font-size: 14px;
+	color: #fff;
+	font-weight: lighter;
+	display: block;
+}
+.pinpai_btn2_time{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+}
+.pinpai_btn2_time2{
+	margin-top: 30px;
+}
+.pinpai_morebtn{
+	width: 161px;
+	height: 50px;
+	margin-top: 90px;
+	margin-left: 178px;
+	position: relative;
+}
+.pinpai_more{
+	width: 98px;
+	height: 27px;
+	border: 2px solid #333;
+	background-color: #fff;
+	float: left;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	line-height: 27px;
+}
+.pinpai_more_jia{
+	font-family: 'iconfont';
+	width: 27px;
+	height: 27px;
+	background-color: #275976;
+	border-top: 2px;
+	border-bottom: 2px solid #333;
+	border-right: 2px solid #333;
+	border-top: 2px solid #333;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+.zeren{
+	width: 1366px;
+	height: 392px;
+	margin: 70px auto 0;
+}
+.zeren_img{
+	width: 517px;
+	height: 323px;
+	float: left;
+	margin-left: 88px;
+}
+.zeren_right{
+	float: left;
+	margin-left:130px;
+	position: relative;
+}
+.zeren_english1{
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 10px;
+}
+.zeren_english2{
+	font-size: 42px;
+}
+.zeren p{
+	color: #727272;
+	font-size: 24px;
+	margin-top: 52px;
+}
+.zeren_more{
+	width: 88px;
+	height: 27px;
+	border: 2px solid #000;
+	background-color: #fff;
+	line-height: 27px;
+	position: relative;
+	float: left;
+	margin-top: 36px;
+	padding-left: 10px;
+}
+.zeren_more_jia{
+	width: 27px;
+	height: 27px;
+	border-left: 2px solid #000;
+	background-color: #2b6c8c;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'iconfont'; 
+	text-align: center;
+	line-height: 27px;
+	font-weight: 800;
+}
