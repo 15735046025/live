@@ -336,8 +336,14 @@
 	border-top: 3px solid #2e6d8c;
 	cursor: pointer;
 }
-.tuandui_bottom_item img{
+.tuandui_bottom_imgbox{
+	width: 120px;
+	height: 178px;
 	margin-bottom: 10px;
+	background: #ADC4D2;
+}
+.tuandui_bottom_imgbox img{
+	/*margin-bottom: 10px;*/
 }
 .tuandui_name{
 	display: block;
@@ -346,12 +352,10 @@
 	border-color:  yellow;
 	color: #000;
 }
-.tuandui_bottom_item:hover{
-	/*border-color:  yellow;*/
+.tuandui_bottom_item:hover img{
+	opacity: 0.8;
 }
-.tuandui_bottom_item1 span{
-	/*color: #000;*/
-}
+
 .team_bottom_right{
 	width: 350px;
 	height: 477px;

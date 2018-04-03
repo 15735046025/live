@@ -19,7 +19,7 @@
 	height: 186px;
 	margin: 0 auto;
 }
-.finish_bottom_jiantou{
+.finish_page{
 	width: 375px;
 	height: 46px;
 	float: left;
@@ -27,14 +27,16 @@
 	padding-top: 30px;
 	padding-bottom: 80px;
 	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
 }
-.finish_bottom_jiantou_zuo{
+.finish_page_left{
 	float: left;
 	color: #595959;
 	font-size: 30px;
-	margin-right: 26px;
+	/*margin-right: 26px;*/
 }
-.finish_bottom_jiantou_shuzi{
+.finish_pageNum{
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
@@ -42,20 +44,20 @@
 	color: #2b6c8c;
 	float: left;
 	margin-top: 10px;
-	margin-right: 26px;
+	/*margin-right: 26px;*/
 	text-align: center;
 	line-height: 24px;
 }
-.finish_bottom_jiantou_you{
+.finish_page_right{
 	color: #595959;
 	font-size: 30px;
 	float: right;
 }
-.finish_bottom_jiantou .active{
+.finish_page div.active{
 	background-color:#2b6c8c;
 	color: #fff; 
 }
-.finish_bottom_jiantou_shuzi2{
+.finish_pageNum2{
 	background-color: rgba(0, 0, 0, 0);
 }
 .chanpin{
