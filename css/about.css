@@ -28,6 +28,9 @@
 	float: right;
 	margin-top: 11px;
 }
+.wenhua_you:hover{
+	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
 .wenhau_you1{
 	width: 161px;
 	height: 283px;

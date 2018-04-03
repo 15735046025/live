@@ -17,9 +17,12 @@
 				<p>宜居<br>时代</p>
 			</div>
 			<div class="head_right">
-				<div class="search_kuang"><p>&#xe680;</p></div>
+				<div class="search_kuang">
+					<input type="text" class="search">
+					<input type="submit" value="&#xe680;" class="search_icon">
+				</div>
 			</div>
-			<div class="head_mid ">
+			<div class="head_mid">
 				<a href="index.html" class="head_mid_xuanzhong">
 					<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
 					公司首页
@@ -36,12 +39,46 @@
 
 	<!-- banner开始 -->
 	<div class="banner">
-		<div class="banner_content">
-			<span>1</span>
-			<span class="banner_content_xuanzhong">2</span>
-			<span>3</span>
-			<span>4</span>
-			<span>5</span>
+		<div class="banner_container">
+			<ul class="banner_imgbox">
+				<li class="active"><img src="img/99-1.jpg" alt=""></li>
+				<li><img src="img/99-2.jpg" alt=""></li>
+				<li><img src="img/99-3.jpg" alt=""></li>
+				<li><img src="img/99-4.jpg" alt=""></li>
+				<li><img src="img/99-5.jpg" alt=""></li>
+			</ul>
+			<div class="banner_content">
+				<span class="active">1
+					<div class="xuanzhong_box xuanzhong_box2">
+						<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
+						<img src="img/xuanzhong_03.png" alt="" class="head_mid_you">
+					</div>
+				</span>
+				<span >2
+					<div class="xuanzhong_box">
+						<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
+						<img src="img/xuanzhong_03.png" alt="" class="head_mid_you">
+					</div>
+				</span>
+				<span>3
+					<div class="xuanzhong_box">
+						<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
+						<img src="img/xuanzhong_03.png" alt="" class="head_mid_you">
+					</div>
+				</span>
+				<span>4
+					<div class="xuanzhong_box">
+						<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
+						<img src="img/xuanzhong_03.png" alt="" class="head_mid_you">
+					</div>
+				</span>
+				<span>5
+					<div class="xuanzhong_box">
+						<img src="img/xuanzhong1_05.png" alt="" class="head_mid_zuo">
+						<img src="img/xuanzhong_03.png" alt="" class="head_mid_you">
+					</div>
+				</span>
+			</div>
 		</div>
 	</div>
 
@@ -85,7 +122,15 @@
 	<div class="anli_bottom">
 		<div class="anli_bottom_left">
 			<img src="img/anliyinying.png" alt="">
-			<img src="img/anlishang.png" alt="" class="anli_bottom_left_shang">
+			<div class="anli_bottom_left_shang">
+				<div class="anli_bottom_inner">
+					<img src="img/99-5.jpg" alt="" >
+					<img src="img/anlishang.png" alt="" >
+					<img src="img/99-4.jpg" alt="" >
+					<img src="img/99-5.jpg" alt="" >
+					<img src="img/anlishang.png" alt="" >
+				</div>
+			</div>
 			<div class="anli_bottom_left_jiantou1">&lt;</div>
 			<div class="anli_bottom_left_jiantou2">&gt;</div>
 		</div>
@@ -121,7 +166,7 @@
 					<img src="img/ren1.png" alt="">
 					<span class="tuandui_name">JANSON.YANG</span>
 				</div>
-				<div class="tuandui_bottom_item tuandui_bottom_item1">
+				<div class="tuandui_bottom_item active">
 					<img src="img/ren2.png" alt="">
 					<span class="tuandui_name">JANSON.YANG</span>
 				</div>
@@ -155,11 +200,11 @@
 				<p>山西省太原市小店区平阳路220号</p>
 			</div>
 			<div class="zhandian_left">
-				<div class="zhandian_left_1">姓名</div>
-				<div class="zhandian_left_1 zhandian_left_2">邮局</div>
-				<div class="zhandian_left_bottom">您的留言...</div>
+				<input type="text" class="zhandian_left_1" placeholder="姓名">
+				<input type="text" class="zhandian_left_1 zhandian_left_2" placeholder="邮局">
+				<textarea name="" id="" cols="30" rows="10" class="zhandian_left_bottom" placeholder="您的留言..."></textarea>
 				<div class="zhandian_left_bottom_box">
-					<div class="zhandian_left_bottom_btn">SEND</div>
+					<a href="https://15735046025.github.io/myself/index.html"><input type="submit" class="zhandian_left_bottom_btn" value="SEND" ></a>
 					<div class="zhandian_left_bottom_jia">&#xe607;</div>
 				</div>
 			</div>
@@ -203,4 +248,7 @@
 		<p>京ICP备11017824号-4 京ICP证130164号 北京市公安局朝阳分局备案编号：1100502000501<br>网络文化经营许可证 京网文[2016]6173-844号 广播电视节目制作经营许可证（京）字第06990号</p>
 	</div>
 </body>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="index.js"></script>
+
 </html>

@@ -26,6 +26,7 @@
 	margin-left: 439px;
 	padding-top: 30px;
 	padding-bottom: 80px;
+	cursor: pointer;
 }
 .finish_bottom_jiantou_zuo{
 	float: left;
@@ -50,7 +51,7 @@
 	font-size: 30px;
 	float: right;
 }
-.finish_bottom_jiantou_shuzi1{
+.finish_bottom_jiantou .active{
 	background-color:#2b6c8c;
 	color: #fff; 
 }

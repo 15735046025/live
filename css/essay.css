@@ -349,7 +349,7 @@
 	font-size: 30px;
 	float: right;
 }
-.finish_bottom_jiantou_shuzi1{
+.finish_bottom_jiantou .active{
 	background-color:#2b6c8c;
 	color: #fff; 
 }
